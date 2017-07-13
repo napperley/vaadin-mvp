@@ -1,5 +1,6 @@
 val KOTLIN_VER = "1.1.3-2"
 val VAADIN_VER = "8.0.6"
+val JUNIT_VER = "4.12"
 
 group = "org.example"
 version = "0.1-SNAPSHOT"
@@ -31,4 +32,5 @@ repositories {
 dependencies {
     compile("org.jetbrains.kotlin:kotlin-stdlib-jre8:$KOTLIN_VER")
     compile("org.jetbrains.kotlin:kotlin-runtime:$KOTLIN_VER")
+    testCompile("junit:junit:$JUNIT_VER")
 }
